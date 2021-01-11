@@ -67,10 +67,6 @@ WHERE name LIKE '____'
 
 --  solution 14
 
-SELECT name
-FROM world
-WHERE name LIKE capital
-
 --  solution 15
 SELECT name 
 FROM world
