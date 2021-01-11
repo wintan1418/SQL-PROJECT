@@ -17,3 +17,9 @@ SELECT name, area FROM world
 
 --   solution 4
 SELECT name, continent, population FROM world
+
+-- solution 5
+
+SELECT name
+  FROM world
+ WHERE population > 200000000
