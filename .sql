@@ -33,3 +33,13 @@ SELECT name FROM world
 
 SELECT name FROM world
   WHERE name LIKE '%land'
+
+--   solution 8
+
+SELECT name FROM world
+  WHERE name LIKE 'c%ia'
+  
+--   solution 9
+
+SELECT name FROM world
+  WHERE name LIKE '%oo%'
