@@ -43,3 +43,30 @@ SELECT name FROM world
 
 SELECT name FROM world
   WHERE name LIKE '%oo%'
+
+--   solution 10
+
+SELECT name FROM world
+  WHERE name LIKE '%a%a%a%'
+
+--   solution 11
+
+SELECT name FROM world
+ WHERE name LIKE '_t%'
+ORDER BY name
+
+-- solution 12
+
+SELECT name FROM world
+ WHERE name LIKE '%o__o%'
+
+--  solution 13
+
+SELECT name FROM world
+ WHERE name LIKE '____'
+
+--  solution 14
+
+SELECT name
+  FROM world
+ WHERE name LIKE capital
