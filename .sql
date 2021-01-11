@@ -16,10 +16,20 @@ SELECT name, area FROM world
   WHERE area BETWEEN 200000 AND 250000
 
 --   solution 4
-SELECT name, continent, population FROM world
+SELECT name FROM world
+  WHERE name LIKE 'Y%'
 
 -- solution 5
 
-SELECT name
-  FROM world
- WHERE population > 200000000
+SELECT name FROM world
+  WHERE name LIKE '%y'
+
+--  solution 6
+
+SELECT name FROM world
+  WHERE name LIKE '%x%'
+
+--   solution 7
+
+SELECT name FROM world
+  WHERE name LIKE '%land'
